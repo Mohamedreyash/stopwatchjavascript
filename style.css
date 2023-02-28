@@ -1,0 +1,48 @@
+.container{
+    text-align: center;
+    margin-top: 100px;
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+    padding: 100px;
+    margin-left: 300px;
+}
+#time{
+    font-size: 20px;
+    padding: 20px;
+}
+.controls button{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+#start{
+    background-color: green;
+    color: white;
+}
+#start:hover{
+    background-color: rgb(14, 188, 14);
+}
+#pause{
+    background-color: red;
+    color: white;
+}
+#pause:hover{
+    background-color: rgb(172, 33, 33);
+}
+#reset{
+    background-color: rgb(87, 87, 3);
+    color: white;
+}
+#reset:hover{
+    background-color: rgb(166, 166, 39);
+}
+#cast{
+    background-color: black;
+    color: white;
+}
+#cast:hover{
+    background-color: rgb(59, 57, 57);
+}
